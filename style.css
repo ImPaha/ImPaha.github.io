@@ -1,0 +1,846 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	background-color: #0d0d0d;
+}
+.head{
+	width: 100%;
+	background: #ffd500;
+	height: 70px;
+	
+
+}
+.title{
+	position: absolute;
+	top: 2%;
+	left: 5%;
+	font-family: Roboto;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.navig{
+	position: absolute;
+	top: 10px;
+	left: 75%;
+	display: flex;
+	
+}
+
+.nav_link{
+	color: #000;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 15px 15px 15px 15px
+}
+.nav_link:hover{
+	color: #f7e486;
+	border-bottom: 1px solid #f7e486;
+}
+.main_block{
+	width: 70%;
+	height: 700px;
+	margin-left: 14%;
+
+	background-image: url('https://eda.ru/img/eda/1200x-i/s2.eda.ru/StaticContent/Photos/120131085053/171027192707/p_O.jpg');
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+	background-color: #2e3a44;
+}
+.bt{
+	font-family: PT Sans Caption;
+	font-size: 90px;
+	position: absolute;
+	top: 20%;
+	left: 27%;
+	color: white;
+}
+body{
+	background-color: #0d0d0d;
+}
+.deskm{
+	font-family:  PT Sans Caption;
+	color: white;
+	position: absolute;
+	top: 40%;
+	font-size: 32px;
+	left: 16%;
+}
+.off{
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	font-size: 170%;
+	color: white;
+}
+.titile{
+	font-family: Staatliches;
+	font-size: 130px;
+	position: absolute;
+	top: 80%;
+	left: 37%;
+	color: white;
+}
+.menu{
+	width: 70%;
+	position: absolute;
+	top: 775px;
+	margin-left: 14%;
+	height: 1000px;
+	background-color: white;
+}
+.menutitle{
+	color: black;
+	position: absolute;
+	left: 45%;
+
+		top: 5%;
+	font-family: Russo One
+
+}
+.firstp{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	height: 340px;
+	width: 25%;
+	border: 3px solid #ffc800;
+	border-radius: 50px; 
+	padding: 0%;
+}
+.pizzat{
+	position: absolute;
+	top: 2%;
+	left: 13%;
+	font-family: PT Sans Caption
+}
+.pep{
+	position: absolute;
+	top: 7%;
+	right: 7%;
+	left: 3%;
+}
+.pepbuy{
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	top: 78%;
+	left:18%;
+	font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+}
+.pepbuy:hover{
+background-color: #ffc800;
+}
+.gavbuy:hover{
+background-color: #ffc800;
+}
+.karbuy:hover{
+background-color: #ffc800;
+}
+.secondp{
+	position: absolute;
+	right: 20%;
+	top: 15%;
+	width: 25%;
+	height: 340px;
+	border: 3px solid #ffc800;
+	border-radius: 50px; 
+}
+.pizzast{
+	font-family: PT Sans Caption;
+	position: absolute;
+	top: 2%;
+	left: 16%;
+}
+
+.gavbuy{	
+position: absolute;
+top: 78%;
+left: 17%;
+font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+
+}
+.pizzasi{
+	position: absolute;
+	top: 50px;
+	left: 15%;
+	width: 170px;
+}
+.thirdp{
+position: absolute;
+left: 20%;
+top: 60%;
+width: 25%;
+	height: 340px;
+	border: 3px solid #ffc800;
+	border-radius: 50px; 
+}
+.pizzatt{
+	position: absolute;
+font-family: PT Sans Caption;
+left: 13%;
+}
+.pizzati{
+position: absolute;
+top: 12%;
+left: 15%;
+}
+.karbuy{
+font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	top: 78%;
+	left: 17%;
+
+}
+.fourthp{
+	position: absolute;
+left: 55%;
+top: 60%;
+width: 25%;
+	height: 340px;
+	border: 3px solid #ffc800;
+	border-radius: 50px; 
+}
+.pizzafi{
+position: absolute;
+right: 9%;
+top: 13%;
+}
+.marbuy{
+font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	top: 78%;
+	right: 17%
+
+}
+
+.pizzaft{
+	font-family: PT Sans Caption;
+ position: absolute;
+ right: 15%;
+}
+.coor{
+	position: fixed;
+}
+.marbuy:hover{
+	background-color: #ffc800;
+}
+.suchi{
+width: 70%;
+position: absolute;
+height: 500px;
+left: 213px;
+top: 1775px;
+background-color: white;
+}
+.suchit{
+color: black;
+font-family: Russo One;
+position: absolute;
+left: 460px;
+}
+.filadel{
+	height: 340px;
+	width: 265px;
+	border: 2px solid #03a2ff;
+	position: absolute;
+	left: 215px;
+	top: 100px;
+	border-radius: 50px;
+}
+.filt{
+	font-family: PT Sans Caption;
+	position: absolute;
+	left: 20px;
+}
+.fili{
+	position: absolute;
+	top: 30px;
+	right: 50px;
+}
+.filb{
+	font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	bottom: 15px;
+	left: 50px;
+}
+.filb:hover{
+	background-color:#03a2ff;
+}
+.foros{
+	height: 340px;
+	width: 265px;
+	border: 2px solid #03a2ff;
+	position: absolute;
+	left: 600px;
+	top: 100px;
+	border-radius: 50px;
+}
+.forb{
+	font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	left: 50px;
+	bottom: 15px;
+}
+.fort{
+	font-family: PT Sans Caption;
+	position: absolute;
+	left: 70px;
+}
+.fori{
+	position: absolute;
+		top: 40px;
+	right: 40px;
+}
+.forb:hover{
+	background-color:#03a2ff;
+}
+.drinks{
+position: absolute;
+left:  213px;
+top: 2275px;
+height: 500px;
+background-color: white;
+width: 70%
+}
+.drinkt{
+	font-family: Russo One;
+	position: absolute;
+	left: 440px;
+}
+.water{
+	height: 340px;
+	width: 265px;
+	border: 2px solid #69ff82;
+	position: absolute;
+	left: 215px;
+	top: 100px;
+	border-radius: 50px;
+}
+.watert{
+	font-family: PT Sans Caption;
+	position: absolute;
+	left: 100px;
+}
+.watb{
+	font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	left: 50px;
+	bottom: 15px;
+}
+.wateri{
+	position: absolute;
+	left: 85px;
+	top: 30px;
+}
+.watb:hover{
+	background-color: #69ff82;
+}
+.cola {
+    height: 340px;
+	width: 265px;
+	border: 2px solid #69ff82;
+	position: absolute;
+	left: 615px;
+	top: 100px;
+	border-radius: 50px;
+}
+.colat{
+    font-family: PT Sans Caption;
+    position: absolute;
+    left: 50px
+}
+.colai {
+    position: absolute;
+    top: 45px;
+    left: 55px;
+}
+.colab{
+    font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	left: 50px;
+	bottom: 15px;
+}
+.colab:hover{
+    background-color: #69ff82;
+}
+footer {
+    background-color: #0d0d0d;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top: 700px;
+    
+    border-top: 2px solid gray;
+}
+.num{
+    position: absolute;
+    top: 10px;
+    color: #949191;
+}
+.datest{
+    font-family: PT Sans Caption;
+    position: absolute;
+    top: 50px;
+    color: #949191;
+}
+/* адаптация... */
+@media (max-width:376px){
+    .head{
+	width: 3750px;
+	background: #ffd500;
+	height: 70px;
+	
+
+}
+.title{
+    display: none;
+	position: absolute;
+	top: 10%;
+	left: 1%;
+	font-family: monospace;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.navig{
+	position: absolute;
+	top: 10px;
+	left: 55px;
+	display: flex;
+	
+}
+
+.main_block{
+	width: 375px;
+	height: 300px;
+	margin-left: 14%;
+
+	background-image: url('https://eda.ru/img/eda/1200x-i/s2.eda.ru/StaticContent/Photos/120131085053/171027192707/p_O.jpg');
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+	background-color: #2e3a44;
+}
+.bt{
+	font-family: PT Sans Caption;
+	font-size: 90px;
+	position: absolute;
+	top: 20%;
+	left: 27%;
+	color: white;
+}
+body{
+	background-color: #0d0d0d;
+}
+.deskm{
+	font-family:  PT Sans Caption;
+	color: white;
+	position: absolute;
+	top: 40%;
+	font-size: 32px;
+	left: 16%;
+}
+.off{
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	font-size: 170%;
+	color: white;
+}
+.titile{
+	font-family: Staatliches;
+	font-size: 130px;
+	position: absolute;
+	top: 80%;
+	left: 37%;
+	color: white;
+}
+.menu{
+	width: 70%;
+	position: absolute;
+	top: 775px;
+	margin-left: 14%;
+	height: 1000px;
+	background-color: white;
+}
+.menutitle{
+	color: black;
+	position: absolute;
+	left: 45%;
+
+		top: 5%;
+	font-family: Russo One
+
+}
+.firstp{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	height: 340px;
+	width: 25%;
+	border: 3px solid #ffc800;
+	border-radius: 50px; 
+	padding: 0%;
+}
+.pizzat{
+	position: absolute;
+	top: 2%;
+	left: 13%;
+	font-family: PT Sans Caption
+}
+.pep{
+	position: absolute;
+	top: 7%;
+	right: 7%;
+	left: 3%;
+}
+.pepbuy{
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	top: 78%;
+	left:18%;
+	font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+}
+.pepbuy:hover{
+background-color: #ffc800;
+}
+.gavbuy:hover{
+background-color: #ffc800;
+}
+.karbuy:hover{
+background-color: #ffc800;
+}
+.secondp{
+	position: absolute;
+	right: 20%;
+	top: 15%;
+	width: 25%;
+	height: 340px;
+	border: 3px solid #ffc800;
+	border-radius: 50px; 
+}
+.pizzast{
+	font-family: PT Sans Caption;
+	position: absolute;
+	top: 2%;
+	left: 16%;
+}
+
+.gavbuy{	
+position: absolute;
+top: 78%;
+left: 17%;
+font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+
+}
+.pizzasi{
+	position: absolute;
+	top: 50px;
+	left: 15%;
+	width: 170px;
+}
+.thirdp{
+position: absolute;
+left: 20%;
+top: 60%;
+width: 25%;
+	height: 340px;
+	border: 3px solid #ffc800;
+	border-radius: 50px; 
+}
+.pizzatt{
+	position: absolute;
+font-family: PT Sans Caption;
+left: 13%;
+}
+.pizzati{
+position: absolute;
+top: 12%;
+left: 15%;
+}
+.karbuy{
+font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	top: 78%;
+	left: 17%;
+
+}
+.fourthp{
+	position: absolute;
+left: 55%;
+top: 60%;
+width: 25%;
+	height: 340px;
+	border: 3px solid #ffc800;
+	border-radius: 50px; 
+}
+.pizzafi{
+position: absolute;
+right: 9%;
+top: 13%;
+}
+.marbuy{
+font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	top: 78%;
+	right: 17%
+
+}
+
+.pizzaft{
+	font-family: PT Sans Caption;
+ position: absolute;
+ right: 15%;
+}
+.coor{
+	position: fixed;
+}
+.marbuy:hover{
+	background-color: #ffc800;
+}
+.suchi{
+width: 70%;
+position: absolute;
+height: 500px;
+left: 213px;
+top: 1775px;
+background-color: white;
+}
+.suchit{
+color: black;
+font-family: Russo One;
+position: absolute;
+left: 460px;
+}
+.filadel{
+	height: 340px;
+	width: 265px;
+	border: 2px solid #03a2ff;
+	position: absolute;
+	left: 215px;
+	top: 100px;
+	border-radius: 50px;
+}
+.filt{
+	font-family: PT Sans Caption;
+	position: absolute;
+	left: 20px;
+}
+.fili{
+	position: absolute;
+	top: 30px;
+	right: 50px;
+}
+.filb{
+	font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	bottom: 15px;
+	left: 50px;
+}
+.filb:hover{
+	background-color:#03a2ff;
+}
+.foros{
+	height: 340px;
+	width: 265px;
+	border: 2px solid #03a2ff;
+	position: absolute;
+	left: 600px;
+	top: 100px;
+	border-radius: 50px;
+}
+.forb{
+	font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	left: 50px;
+	bottom: 15px;
+}
+.fort{
+	font-family: PT Sans Caption;
+	position: absolute;
+	left: 70px;
+}
+.fori{
+	position: absolute;
+		top: 40px;
+	right: 40px;
+}
+.forb:hover{
+	background-color:#03a2ff;
+}
+.drinks{
+position: absolute;
+left:  213px;
+top: 2275px;
+height: 500px;
+background-color: white;
+width: 70%
+}
+.drinkt{
+	font-family: Russo One;
+	position: absolute;
+	left: 440px;
+}
+.water{
+	height: 340px;
+	width: 265px;
+	border: 2px solid #69ff82;
+	position: absolute;
+	left: 215px;
+	top: 100px;
+	border-radius: 50px;
+}
+.watert{
+	font-family: PT Sans Caption;
+	position: absolute;
+	left: 100px;
+}
+.watb{
+	font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	left: 50px;
+	bottom: 15px;
+}
+.wateri{
+	position: absolute;
+	left: 85px;
+	top: 30px;
+}
+.watb:hover{
+	background-color: #69ff82;
+}
+.cola {
+    height: 340px;
+	width: 265px;
+	border: 2px solid #69ff82;
+	position: absolute;
+	left: 615px;
+	top: 100px;
+	border-radius: 50px;
+}
+.colat{
+    font-family: PT Sans Caption;
+    position: absolute;
+    left: 50px
+}
+.colai {
+    position: absolute;
+    top: 45px;
+    left: 55px;
+}
+.colab{
+    font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 100px;
+	border: 2px solid black;
+	position: absolute;
+	left: 50px;
+	bottom: 15px;
+}
+.colab:hover{
+    background-color: #69ff82;
+}
+footer {
+    background-color: #0d0d0d;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    top: 700px;
+    
+    border-top: 2px solid gray;
+}
+.num{
+    position: absolute;
+    top: 50px;
+    color: #949191;
+}
+.datest{
+    font-family: PT Sans Caption;
+    position: absolute;
+    top: 85px;
+    color: #949191;
+
+}
+}
+.warn{
+    color: #949191;
+    font-size: 13px;
+    position: absolute;
+    top: 100px;
+}
