@@ -16,7 +16,15 @@
   <title>GoPizza</title>
 </head>
 <body>
-	<script src="animations.js"></script>
+	<script>
+	function smooth_scroll(y) {
+	window.scroll({
+		left: 0,
+		top: y,
+		behavior: 'smooth'
+	})
+} 
+</script>
 	<!--<button class=coor onclick="coordin()">dpsl</button>-->
 <header class=head>
 	<img src="pizza.png" width=70 class=pizzaava>
@@ -92,3 +100,4 @@
 </div>
 </body>
 </html>
+
